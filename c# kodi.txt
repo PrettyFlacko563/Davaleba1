@@ -1,0 +1,30 @@
+private void button1_Click(object sender, EventArgs e)
+        {
+            Kvadrati obj_kvadrati = new Kvadrati();
+            int gverdi_1 = int.Parse(textBox1.Text);
+            int fartobi;
+
+            obj_kvadrati.Minicheba(gverdi_1);
+            obj_kvadrati.Gamotana(label1);
+            fartobi = obj_kvadrati.Fartobi();
+
+            label2.Text = fartobi.ToString();
+        }
+
+
+
+
+
+private void button2_Click(object sender, EventArgs e)
+        {
+            label7.Text = ;
+            Studenti obj_studenti = new Studenti();
+            int[] masivi_1 = new int[] { 99, 98, 97, 90, 87, 89, 88, 85, 96, 100 };
+            double sashualo;
+
+            sashualo = obj_studenti.Sashualo(masivi_1);
+            label6.Text = sashualo.ToString();
+            foreach (int x in masivi_1)
+                label7.Text += x.ToString() +   ;
+        }
+
